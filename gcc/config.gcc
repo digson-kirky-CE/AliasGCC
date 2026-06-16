@@ -493,6 +493,9 @@ m68k-*-*)
 	extra_headers=math-68881.h
 	extra_options="${extra_options} m68k/m68k-tables.opt"
 	;;
+m68040-*-mac-netbsd)
+    tm_file="${tm_file} m68k/netbsd-elf.h"
+    ;;
 microblaze*-*-*)
         cpu_type=microblaze
 	extra_options="${extra_options} g.opt"
