@@ -324,6 +324,7 @@ case ${target}${target_min} in
  | m32rle-*-linux*			\
  | m68k*-*-openbsd*			\
  | m68k-*-uclinuxoldabi*		\
+ | m68040-*-mac-netbsd      \
  | mips64orion*-*-rtems*		\
  | pdp11-*-bsd				\
  | powerpc*-*-linux*paired*		\
